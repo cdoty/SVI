@@ -38,6 +38,7 @@ Shared_S	+= $(wildcard SystemLib/Z80/Sound/IO/AY38910/*.s)
 
 System_S	= $(wildcard SystemLib/$(console)/crt0/Cart.s)
 System_S	+= $(wildcard SystemLib/$(console)/*.s)
+System_S	+= $(wildcard SystemLib/$(console)/ExtraRam/*.s)
 System_S	+= $(wildcard System/*.s)
 Game_C		= $(wildcard Game/*.c)
 Graphics_S	= $(wildcard Graphics/*.s)
