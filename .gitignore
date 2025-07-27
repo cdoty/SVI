@@ -1,0 +1,6 @@
+*.lst
+*.obj
+*.pck
+Graphics/*.s
+Test.rom
+Test.symbols.txt
